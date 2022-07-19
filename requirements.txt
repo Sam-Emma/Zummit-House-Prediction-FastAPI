@@ -7,5 +7,3 @@ catboost
 uvicorn
 datetime
 fastapi
-pickle
-datetime
