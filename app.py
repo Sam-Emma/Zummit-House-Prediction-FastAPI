@@ -27,8 +27,7 @@ classifier=pickle.load(pickle_in)
 
 #from datetime import date
 @app.post('/')
-async def predict_house_price(data:House):
-
+def predict_house_price(data:House):
     year=data.date.year
     month=data.date.month
     day=data.date.day
