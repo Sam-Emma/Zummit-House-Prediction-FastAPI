@@ -7,8 +7,8 @@ import pickle
 app = FastAPI()
 pickle_in = open("model.sav","rb")
 classifier=pickle.load(pickle_in)
-import nest_asyncio
-nest_asyncio.apply()
+# import nest_asyncio
+# nest_asyncio.apply()
 
 # # 3. Index route, opens automatically on http://127.0.0.1:8000
 # @app.get('/')
