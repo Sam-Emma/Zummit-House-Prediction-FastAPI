@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 import datetime
-# 2. Class which describes Bank Notes measurements
+
 class House(BaseModel):
     date: datetime.date
     bedrooms: int
