@@ -1,0 +1,11 @@
+pandas
+Flask
+scikit-learn
+gunicorn
+pytest
+catboost
+uvicorn
+datetime
+fastapi
+pickle
+datetime
